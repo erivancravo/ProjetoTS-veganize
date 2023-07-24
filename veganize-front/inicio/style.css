@@ -1,0 +1,204 @@
+/* Estilos gerais */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Estilos do header */
+header {
+  background-color: rgb(182, 196, 38);
+  color: rgb(65, 52, 36);
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  list-style-type: none;
+  margin-top: 25px;
+  margin-right: 40px;
+  padding: 0;
+}
+
+.search {
+  margin-bottom: 20px;
+}
+
+nav ul li {
+  background-color: #ffffe3;
+  display: inline;
+  border: none;
+  border-radius: 5px;
+  padding: 5px;
+  margin-right: 10px;
+}
+
+nav ul li:hover {
+  background-color: rgb(249, 255, 181);
+}
+
+nav ul li a {
+  padding: 10px 20px;
+  text-decoration: none;
+  color: rgb(65, 52, 36);
+}
+
+/* Estilos do inicio */
+#inicio {
+  background-image: url("hero-image.jpg");
+  background-size: cover;
+  color: #fff;
+  padding: 100px 0;
+  text-align: center;
+}
+
+h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 18px;
+}
+
+.cta-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #f2f2f2;
+  color: #333;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+/* Estilos do Receitas */
+#menu {
+  background-color: #ffffe3;
+  padding: 50px 0;
+  text-align: center;
+}
+
+.menu-items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.menu-item {
+  width: 250px;
+  padding: 20px;
+  margin: 10px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.menu-item img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 10px;
+  transition: transform 0.2s ease-in-out;
+}
+
+.menu-item img:hover {
+  transform: scale(1.1); /* Efeito de escala no hover */
+}
+
+/* Estilos do formulário de contato */
+.contact-form input,
+.contact-form textarea {
+  display: block;
+  width: 500px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.contact-form button {
+  padding: 10px 20px;
+  background-color: rgb(182, 196, 38);
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+/* Estilos do rodapé */
+footer {
+  background-color: rgb(182, 196, 38);
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+}
+
+/*Estilos do form de pesquisa */
+/* Estiliza o container da busca */
+.search {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+/* Estiliza o formulário */
+.search form {
+  background-color: #ffffe3;
+  display: flex;
+  align-items: center;
+}
+
+/* Estiliza o input de texto */
+.search input[type="text"] {
+  padding: 10px;
+  border: 2px solid rgb(65, 52, 36);
+  border-radius: 5px 0 0 5px;
+  font-size: 16px;
+  outline: none;
+  width: 250px;
+}
+
+/* Estiliza o botão */
+.search button {
+  padding: 11px 20px;
+  border: none;
+  border-radius: 0 5px 5px 0;
+  font-size: 16px;
+  background-color: rgb(65, 52, 36);
+  color: #fff;
+  cursor: pointer;
+}
+
+/* Altera a cor do botão quando o cursor está sobre ele */
+.search button:hover {
+  background-color: #8d6d45;
+}
+
+.contact-buttons a {
+  margin: 0 10px; /* Espaçamento entre os botões */
+}
+
+.contact-buttons img {
+  width: 40px; /* Tamanho dos logotipos */
+  height: 40px;
+  border-radius: 50%; /* Tornar os botões redondos */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Adicionar sombra aos botões */
+  transition: transform 0.2s ease-in-out; /* Efeito de transição suave */
+}
+
+.contact-buttons img:hover {
+  transform: scale(1.1); /* Efeito de escala no hover */
+}

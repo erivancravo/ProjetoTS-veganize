@@ -1,0 +1,73 @@
+/* Estilos da página de receita */
+#receita {
+  background-color: #ffffff;
+  padding: 50px 0;
+  text-align: center;
+}
+
+#receita img {
+  width: 400px;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+#receita h2 {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+#receita p {
+  font-size: 18px;
+}
+
+#receita h3 {
+  font-size: 24px;
+  margin: 20px 0 10px;
+}
+
+#receita ul,
+#receita ol {
+  text-align: left;
+  margin-left: 40px;
+}
+
+#receita li {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+/* Estilos do formulário de contato na página de receita */
+#receita .contact-form input,
+#receita .contact-form textarea {
+  width: 100%;
+  padding: 10px;
+}
+
+#receita .contact-form button {
+  width: 100%;
+}
+
+/* Estilos dos botões de contato */
+.contact-buttons {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.contact-buttons a {
+  margin: 0 10px; /* Espaçamento entre os botões */
+}
+
+.contact-buttons img {
+  width: 40px; /* Tamanho dos logotipos */
+  height: 40px;
+  border-radius: 50%; /* Tornar os botões redondos */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Adicionar sombra aos botões */
+  transition: transform 0.2s ease-in-out; /* Efeito de transição suave */
+}
+
+.contact-buttons img:hover {
+  transform: scale(1.1); /* Efeito de escala no hover */
+}
