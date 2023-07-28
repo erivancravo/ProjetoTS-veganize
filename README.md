@@ -1,1 +1,1 @@
-# o_ultimo__mestre_do_ar
+Esse é o front da nossa página de receitas chamada veganize, os aquivos estão na pasta veganize-front.
